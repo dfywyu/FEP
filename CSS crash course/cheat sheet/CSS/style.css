@@ -1,0 +1,37 @@
+body{
+    background-color: #f4f4f4;
+    color:#555555;
+    font-family: 'Arial','Helvetica','sans-serif';
+    /* arial first, if cant load aria then helvetica...*/
+    font-size: 20px ;
+    font-weight: normal;
+    /*
+    same as above
+    font: normal 16px Arial, Helvetica, sans-serif;*/
+    line-height: 1.6em;
+    margin:0;
+
+}
+
+.container{
+     /* creating a container which will determine the width 
+     and margin of the element put inside. its really just a class*/
+    width:80%;
+    margin: auto;
+}
+
+.Box-1{
+    background-color:#333;
+    color:#fff;
+    border-right: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;
+    /* same as above
+    border: 5px red solid
+    */
+    border-width:3px;
+    border-bottom-width: 5px;
+    border-top-style: dotted;
+
+}
